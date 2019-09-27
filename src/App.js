@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import FileUpload from "./components/file-upload";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
-      <div> You can upload your files from here </div>
+      <Header />
       <FileUpload />
     </>
   );
